@@ -1,7 +1,5 @@
-# Car-Sales-Analysis-End-to-End-Power-BI-Dashboard-
-Built an interactive Power BI dashboard for car sales analysis. Loved creating dynamic visuals, DAX measures (YTD, MTD, YoY) and a clean UI. This project covers data cleaning, modeling making the analysis both powerful and enjoyable.
 
-
+![images](https://github.com/user-attachments/assets/8c6b9b92-6ea2-458d-9264-74c3ba71c3d6)
 
 ## 📌 **Project Overview**
 
@@ -12,7 +10,7 @@ Data set
 Power BI
 Problem Solving
 
-Problem statment:
+**Problem statment:**
 The car dealership wants a clear, data-driven understanding of its sales performance across different years, brands, fuel types, and models.
 The goal is to build an interactive Power BI dashboard that helps the business:
 Monitor overall sales performance using KPIs
@@ -22,8 +20,9 @@ Understand how factors like fuel type, transmission, and body type influence sal
 View historical trends and seasonality using week/month/year charts
 Enable managers to filter insights by time, model
 
-Dataset Description:
+**Dataset Description:**
 The dataset contains car sales transactions with fields like Date, Brand, Model, Body Type, Fuel Type, Transmission, and Price. After cleaning and standardizing the data, additional date fields (Year, Month, Week) were created using a Calendar table to enable time-based analysis and KPI calculations
+<img width="1458" height="767" alt="Data set Sample" src="https://github.com/user-attachments/assets/a22cd143-3811-4f55-a3ad-c55f592b712d" />
 
 🎯 Key Objectives
 
@@ -43,9 +42,7 @@ The dataset contains car sales transactions with fields like Date, Brand, Model,
 
 ✔ Result: A clean and reliable dataset for analysis.
 
-
 2. Calendar Table & Date Intelligence
-
 A dedicated Calendar Table was created to support all time-intelligence functions.
 
 Key calculated columns:
