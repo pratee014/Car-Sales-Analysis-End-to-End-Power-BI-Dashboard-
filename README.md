@@ -39,20 +39,16 @@ Data modeling
 Dashboard design
 
 KPI creation & formatting
-🧹 1. Data Cleaning & Preparation
 
+1. Data Cleaning & Preparation
 * Replaced incorrect values and standardized fields
 * Ensured data types were correctly assigned (Date, Numeric, Text)
 * Verified dataset quality—minimal corrections needed
 * Applied the cleaning steps into the Power BI data model
 
-✔ Result: A clean and reliable dataset for analysis.
-
 2. Calendar Table & Date Intelligence
 A dedicated Calendar Table was created to support all time-intelligence functions.
-
 Key calculated columns:
-
 * Year
 * Month (Full & Short)
 * Week
@@ -60,14 +56,11 @@ Key calculated columns:
 * Year-Month
 
 Used in measures like:
-
 * YTD Total Sales
 * YoY Growth
 * MTD Average Price
 
-✔ The dashboard automatically detects the latest year for YTD calculations.
-
-3. KPI Metrics Created**
+3. KPI Metrics Created
 
  ✔ Total Sales: A simple aggregation of car sales revenue.
  ✔ Year-on-Year Growth:Using SAMEPERIODLASTYEAR for comparison.
@@ -77,7 +70,6 @@ Used in measures like:
 Each KPI dynamically updates based on slicers (Year, Brand, Dealer)
 
 4. Visualizations & Charts
-
 Six main charts were created as per the project requirements:
 
 1. Sales Trend Over Time
@@ -91,9 +83,7 @@ Six main charts were created as per the project requirements:
 ✔ Visuals designed with clean spacing, proper alignment, and thematic color palette.
 
 5. DAX Calculations
-
 🔹 SUM(), CALCULATE(), TOTALYTD(), SAMEPERIODLASTYEAR(): Used to create dynamic date-based metrics.
-
 🔹 IF(), MAXX(), ALLSELECTED(): Used for peak sales detection (max point in charts).
 
 Power BI Dashboards:
