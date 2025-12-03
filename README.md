@@ -1,6 +1,4 @@
 
-![images](https://github.com/user-attachments/assets/8c6b9b92-6ea2-458d-9264-74c3ba71c3d6)
-
 ## 📌 **Project Overview**
 
 This project demonstrates how to build a fully dynamic and interactive **Power BI dashboard** for analyzing car sales data. The dashboard highlights business performance using KPIs, charts, conditional formatting, and advanced DAX measures.
@@ -33,6 +31,14 @@ The dataset contains car sales transactions with fields like Date, Brand, Model,
 * Design user-friendly visuals with professional formatting
 * Implement conditional formatting and KPI indicators
 
+Skills Demonstrated
+Data cleaning & transformation
+Power Query
+DAX (YTD, MTD, YoY, CALCULATE, ALLSELECTED, MAXX, TOTALYTD)
+Data modeling
+Dashboard design
+
+KPI creation & formatting
 🧹 1. Data Cleaning & Preparation
 
 * Replaced incorrect values and standardized fields
@@ -90,13 +96,17 @@ Six main charts were created as per the project requirements:
 
 🔹 IF(), MAXX(), ALLSELECTED(): Used for peak sales detection (max point in charts).
 
-The final dashboard provides:
+Power BI Dashboards:
 
-* Complete business sales overview
-* Drill-down capability by year, brand, transmission, and fuel type
-* Dynamic KPIs with YTD, MTD, YoY analysis
-* Trend analysis with max-point detection
-* Clean, intuitive interface for decision-making
+<img width="1284" height="724" alt="Car_sales_Dashboard" src="https://github.com/user-attachments/assets/8e6dc959-713e-4f23-8cef-e3b3921189ff" />
+
+Dashboard Highlights:
+
+KPI cards for major performance metrics
+Trend analysis with max sales point identification
+Sales by brand, fuel type, and transmission
+Monthly and yearly breakdowns
+Clean UI with conditional formatting and drill-down interactions
 
 Key Insights
 
