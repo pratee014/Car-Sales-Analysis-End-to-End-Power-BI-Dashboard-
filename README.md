@@ -7,9 +7,25 @@ Built an interactive Power BI dashboard for car sales analysis. Loved creating d
 
 This project demonstrates how to build a fully dynamic and interactive **Power BI dashboard** for analyzing car sales data. The dashboard highlights business performance using KPIs, charts, conditional formatting, and advanced DAX measures.
 
+Prerequisites
+Data set
+Power BI
+Problem Solving
 
+Problem statment:
+The car dealership wants a clear, data-driven understanding of its sales performance across different years, brands, fuel types, and models.
+The goal is to build an interactive Power BI dashboard that helps the business:
+Monitor overall sales performance using KPIs
+Compare YTD, MTD, and YoY metrics
+Identify best- and worst-performing brands and models
+Understand how factors like fuel type, transmission, and body type influence sales
+View historical trends and seasonality using week/month/year charts
+Enable managers to filter insights by time, model
 
-🎯 **Key Objectives**
+Dataset Description:
+The dataset contains car sales transactions with fields like Date, Brand, Model, Body Type, Fuel Type, Transmission, and Price. After cleaning and standardizing the data, additional date fields (Year, Month, Week) were created using a Calendar table to enable time-based analysis and KPI calculations
+
+🎯 Key Objectives
 
 * Build a complete Power BI dashboard from raw data to final visualization
 * Clean and prepare car sales data
@@ -17,7 +33,6 @@ This project demonstrates how to build a fully dynamic and interactive **Power B
 * Build advanced DAX measures such as YTD, MTD, YoY Growth, and Max Sales Point
 * Design user-friendly visuals with professional formatting
 * Implement conditional formatting and KPI indicators
-
 
 🧹 1. Data Cleaning & Preparation
 
@@ -49,7 +64,7 @@ Used in measures like:
 
 ✔ The dashboard automatically detects the latest year for YTD calculations.
 
-**3. KPI Metrics Created**
+3. KPI Metrics Created**
 
  ✔ Total Sales: A simple aggregation of car sales revenue.
  ✔ Year-on-Year Growth:Using SAMEPERIODLASTYEAR for comparison.
@@ -74,9 +89,9 @@ Six main charts were created as per the project requirements:
 
 5. DAX Calculations
 
-🔹 **SUM(), CALCULATE(), TOTALYTD(), SAMEPERIODLASTYEAR(): Used to create dynamic date-based metrics.
+🔹 SUM(), CALCULATE(), TOTALYTD(), SAMEPERIODLASTYEAR(): Used to create dynamic date-based metrics.
 
-🔹 **IF(), MAXX(), ALLSELECTED(): Used for peak sales detection (max point in charts).
+🔹 IF(), MAXX(), ALLSELECTED(): Used for peak sales detection (max point in charts).
 
 The final dashboard provides:
 
@@ -85,6 +100,19 @@ The final dashboard provides:
 * Dynamic KPIs with YTD, MTD, YoY analysis
 * Trend analysis with max-point detection
 * Clean, intuitive interface for decision-making
+
+Key Insights
+
+| Insight Area             | Summary                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------- |
+| **Sales Trends**         | Identified clear monthly and weekly patterns showing peak and low sales periods.             |
+| **Top Categories**       | Certain brands, models, and body types consistently generated the highest sales.             |
+| **Pricing Behavior**     | Average sale price varied significantly across models, transmission types, and fuel options. |
+| **YTD Performance**      | Year-to-date sales revealed growth or decline compared to previous years.                    |
+| **MTD Insights**         | Month-to-date metrics provided real-time visibility into current month performance.          |
+| **Customer Preferences** | Strong preference observed for specific fuel types and transmission types.                   |
+| **Revenue Contribution** | A small number of brands/models contributed the majority of total revenue.                   |
+| **Max Sales Periods**    | Peak weeks and months identified using DAX to highlight highest-performing periods.          |
 
 
 Conclusion
@@ -96,11 +124,4 @@ This project showcases a full end-to-end Power BI workflow:
 ✔ Demonstrates strong BI, analytical, and dashboard-design skills
 
 
-# 📦 **Suggested Files to Upload to GitHub**
-
-* `Car_Sales_Dataset.csv` (cleaned or raw)
-* `.pbix` Power BI file
-* `README.md` (use this summary)
-* Screenshot folder of final dashboard
-* DAX_Measures.txt
 
