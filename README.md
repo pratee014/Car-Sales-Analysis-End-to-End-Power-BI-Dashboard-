@@ -88,7 +88,8 @@ Six main charts were created as per the project requirements:
 
 Power BI Dashboards:
 
-<img width="1284" height="724" alt="Car_sales_Dashboard" src="https://github.com/user-attachments/assets/8e6dc959-713e-4f23-8cef-e3b3921189ff" />
+<img width="1301" height="726" alt="Screenshot 2025-12-04 234635" src="https://github.com/user-attachments/assets/2f7eb5fa-46a9-45a4-add5-f8f65f9cbf54" />
+
 
 Dashboard Highlights:
 
